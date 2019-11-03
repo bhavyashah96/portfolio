@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Contact Us </title>
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+
+<!-- bootstrap css stylesheet -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">  
+
+<!--our custmize css stylesheet -->
+  <link rel="stylesheet" href="css/mystyle.css">  
+
+
+<!-- bootstrap js files -->
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+
+<!-- ------------------Scroll---------------- -->
+
+<div class="header">
+ 
+  <div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div>  
+</div>
+
+
+<script>
+// When the user scrolls the page, execute myFunction 
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+</script>
+
+<!-- ------------------Header---------------- -->
+
+<div class="container head pb-5">
+<div class="row pt-3">
+<div class="col-md-4 col-xs-12 cold-sm-12 al">
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="index.html">Home</a>
+    <a href="index.html#products">Products</a>
+    <a href="services.html">Services</a>
+    <a href="about.html">About Us</a>
+<a href="contact.html">Contact Us</a>
+  </div>
+</div>
+
+<span style="font-size:50px;cursor:pointer;" onclick="openNav()">&#9776; </span>
+
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+   </div>  
+
+<div class="col-md-4 col-xs-12 cold-sm-12 align-c">
+<a href="index.html"><img src="images/logo 1.png" class="img-fluid" style="width:80%"></a>
+</div>
+
+<div class="col-md-4 col-xs-12 cold-sm-12 text-right align-c">
+<form class="example" action="/action_page.php">
+  <input type="text" placeholder="Search.." name="search">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+     
+
+</div>
+
+</div></div>
+
+<!-- ------------------Breadcrumb---------------- -->
+
+<ul class="breadcrumb" style="background-color:#212121;">
+  <li><a href="index.html" style="color:#696969;font-family:Quicksand; font-size:30px; ">Home</a></li> &nbsp;<p style="color:#696969; ">/</p>&nbsp;
+  <li style="color:#fcfcfc; font-family:Quicksand; font-size:30px; font-weight:bold;">Contact Us</li>
+</ul>
+
+<!-- ------------------Contact Section---------------- -->
+
+<div class="row fot pb-5">
+<div class="container ">
+<div class="row">
+<div class="col-md-12 col-xs-12 cold-sm-12">
+<h1 class="text-center pb-3 op">Contact Us</h1>
+</div></div>
+
+<div class="row">
+<div class="col-md-6 col-xs-12 cold-sm-12 align-c">
+<p><span class="ad">Address:</span><br>
+<span class="inn">Shop No. 10, Excellency 
+Bldg.Old Ravi Raj Complex,
+Jesal Park, Bhayander(E).
+Mumbai-401105. India.</span><br>
+<span class="ad">Email:</span><br>
+<span class="inn">nsinternationalindia@gmail.com</span><br>
+<span class="ad">Contact:</span><br>
+<span class="inn">919821381000</span></p></div>
+
+<div class="col-md-6 col-sm-12 col-xs-12">
+<form action="post" method="send.php">
+<input type="text" name="username"  placeholder="Name" style="width:100%;" required class="fm"><br>
+<input type="text" name="useremail" placeholder="Email" style="width:100%;" required class="fm"><br>
+<input type="text" name="usercontact" placeholder="Contact" style="width:100%;" required class="fm" ><br>
+<textarea placeholder="Query" rows="5" cols="20" style="width:100%;" required class="fm"></textarea><br>
+<a href="thank.html"><button class="button"style="width:100%;"><span>ENQUIRE NOW</span></button></a>
+</form>
+</div>
+
+</div></div></div>
+
+<!-- ------------------Maps---------------- -->
+
+<div class="row pt-5 pb-5">
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1882.6143250862156!2d72.854179!3d19.315882!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7af19bbdea181%3A0x6281e031ef614b26!2sN%20S%20INTERNATIONAL!5e0!3m2!1sen!2sin!4v1568982327773!5m2!1sen!2sin" width="1500" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+</div>
+<!-- ------------------Footer---------------- -->
+
+<div class="row fot pt-5 pb-5">
+<div class="container fot align-c ">
+<div class="row">
+<div class="col-md-4 col-sm-12 col-xs-12 quicc">
+<div  class=" quick">
+<a href="index.html" class=" quick" >Home</a></span><br>
+<a href="index.html#products"class=" quick" >Products</a><br>
+<a href="services.html" class=" quick">Services</a><br>
+<a href="about.html" class=" quick">About Us</a><br>
+<a href="contact.html" class=" quick" style="color:#000;text-decoration:underline; font-weight:bold">Contact Us</a><br></p>
+</div></div>
+
+<div class="col-md-4 col-sm-12 col-xs-12">
+<a href="index.html"><img src="images/logo 1.png" class="img-fluid" style="width:80%"></a><br>
+<span class="ad">Follow Us:</span><br>
+<a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-official" style="font-size:36px; color:#000;"></i></a>&nbsp;
+<a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" style="font-size:36px; color:#000;"></i></a>&nbsp;
+
+
+</div>
+
+<div class="col-md-4 col-sm-12 col-xs-12">
+<p><span class="ad">Address:</span><br>
+<span class="inn">Shop No. 10, Excellency 
+Bldg.Old Ravi Raj Complex,
+Jesal Park, Bhayander(E).
+Mumbai-401105. India.</span><br>
+<span class="ad">Email:</span><br>
+<span class="inn">nsinternationalindia@gmail.com</span><br>
+<span class="ad">Contact:</span><br>
+<span class="inn">919821381000</span></p>
+</div>
+
+</div></div>
+</div>
+<!-- ------------------Copyright---------------- -->
+
+<div class="row text-center back">
+<div class="col-md-12 col-sm-12 col-xs-12">
+<p>&copy 2002 Sealingmachine.net. All rights reserved.</p>
+
+</div>
+
+
+</div>
+
+</body>
+</html>

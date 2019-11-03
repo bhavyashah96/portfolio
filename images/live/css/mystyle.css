@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+
+.fot
+{background-color:#000507;
+color:#ffffff; 
+text-align:center;
+}
+
+
+.d
+{color:#525252;
+font-family:roboto;
+font-weight:bold;}
+
+.c
+{color:#090909;
+font-family:roboto;
+font-size:20px;
+}
+
+.m
+{color:#686868;
+font-family:roboto;
+font-size:30px;}
+
+.n
+{color:#525252;
+font-family:roboto;
+font-size:30px;}
+
+/**************************Media Query***************/
+
+
+@media only screen and (max-width:768px)
+{
+
+.aa
+{display:none;}
+
+.pd
+{padding-top:3px;}
+
+.pdd
+{padding-bottom:15px;}
+
+
